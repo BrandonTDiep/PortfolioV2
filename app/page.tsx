@@ -3,7 +3,6 @@ import { icons } from "lucide-react";
 import { Mail, FileUser  } from "lucide-react"
 import Link from "next/link"
 import Image from "next/image"
-import ContactForm from "@/components/contact-form"
 import ProjectCard from "@/components/project-card"
 import TechStack from "@/components/tech-stack"
 
@@ -209,7 +208,6 @@ export default function Home() {
                 </Link>
               </div>
               
-              {/* <ContactForm /> */}
             </div>
           </div>
         </section>
