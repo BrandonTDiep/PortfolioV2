@@ -139,7 +139,7 @@ export default function Home() {
                 description="Cookie Clicker Game with online saves, a leaderboard, and an interactive shop."
                 image="/gifs/cookie-clicker.gif"
                 github="https://github.com/CS4650FallSemester2023/FinalProject"
-                link="https://mypokemoncardfacts.netlify.app"
+                link=""
                 tags={["React", "Django"]}
               />
               <ProjectCard
