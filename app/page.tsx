@@ -95,6 +95,14 @@ export default function Home() {
             <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-12 text-center">Projects</h2>
             <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
               <ProjectCard
+                title="PlatePilot"
+                description="AI Recipe Generation site that provides recipes to save based on a user's ingredients."
+                image="/gifs/platepilot.gif"
+                github="https://github.com/BrandonTDiep/PlatePilot"
+                link="https://platepilot.vercel.app"
+                tags={["Next.js", "TypeScript", "Prisma", "Supabase", "Tailwind CSS"]}
+              />
+              <ProjectCard
                 title="SentiMusic"
                 description="Music Recommender site that provides songs based on a user's mood or feelings to add to Spotify."
                 image="/gifs/sentimusic.gif"
